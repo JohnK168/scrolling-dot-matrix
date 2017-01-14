@@ -1,4 +1,7 @@
+#include <Adafruit_NeoPixel.h>
+
 #include <FrequencyTimer2.h>
+
 #define SPACEr { \
 {0, 0, 0, 0, 0}, \
 {0, 0, 0, 0, 0}, \
