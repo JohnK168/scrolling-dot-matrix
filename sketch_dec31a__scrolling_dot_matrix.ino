@@ -1,5 +1,8 @@
+#include <Adafruit_NeoPixel.h>
+
 #include <FrequencyTimer2.h>
-#define SPACE { \
+
+#define SPACEr { \
 {0, 0, 0, 0, 0}, \
 {0, 0, 0, 0, 0}, \
 {0, 0, 0, 0, 0}, \
@@ -115,7 +118,7 @@ byte leds[5][7]; // columns x rows
 // (-1 is dummy to make array start at pos 1)
 int pins[12]= {2,3,4,5,6,7,8,9,10,11,12,13};
  
-// col[xx] of leds = pin yy on led matrix
+
 int cols[5] = {pins[0], pins[1], pins[2], pins[3], pins[4]};
  
 // row[xx] of leds = pin yy on led matrix
