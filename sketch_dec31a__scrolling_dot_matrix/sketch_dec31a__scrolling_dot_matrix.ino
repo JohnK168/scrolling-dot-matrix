@@ -218,6 +218,5 @@ void display()
       digitalWrite(rows[row], HIGH); // Turn off this led
     }
   }
-  // Turn whole column on at once (for equal lighting times):
-  digitalWrite(cols[col], HIGH);
+  
 }
